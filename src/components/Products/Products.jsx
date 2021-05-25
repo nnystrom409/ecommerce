@@ -4,10 +4,12 @@ import { Grid } from '@material-ui/core';
 import Product from './Product/Product';
 import useStyles from './styles';
 
+/*
 const products = [
   { id: 1, name: 'Shoes', description: 'Running shoes', price: "$5", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRblZhde109nGnyvvP_1mdw5s9eZP1OST4O5C-nDP5cc_CEOmMr69f9jrRRHxMysQBu5bit2gCO&usqp=CAc" },
   { id: 2, name: 'Macbook', description: 'Apple macbook', price: "$10", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJCPTBN2iL7QK8PnVIcifaB_RJhfQfKq77wJIQJpEud1Ar-lccRSMgBzbA9SM&usqp=CAc" },
 ];
+*/
 
 const Products = ({ products, onAddToCart }) => {
   const classes = useStyles();
